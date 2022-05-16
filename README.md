@@ -28,6 +28,10 @@
 
     - [docker-compose运行postgresql](./docker-compose/docker-compose运行postgresql.md)
 
+- ## dolphin scheduler(起始版本为3.0.0-alpha)
+
+    - [DolphinScheduler-3.0.0-alpha](./DolphinScheduler/3.0.0-alpha)
+
 - ## spring-cloud(起始版本为Hoxton.SR9)
 
     - [OAuth2认证与授权](./spring-cloud/OAuth2认证与授权.md)

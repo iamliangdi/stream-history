@@ -70,7 +70,7 @@ services:
     image: apache/dolphinscheduler-api:3.0.0-alpha
     ports:
       - "12345:12345"
-    env_file: ./env
+    env_file: env
     healthcheck:
       test: [ "CMD", "curl", "http://localhost:12345/actuator/health" ]
       interval: 30s
@@ -90,7 +90,7 @@ services:
 
   dolphinscheduler-alert:
     image: apache/dolphinscheduler-alert-server:3.0.0-alpha
-    env_file: ./env
+    env_file: env
     healthcheck:
       test: [ "CMD", "curl", "http://localhost:50053/actuator/health" ]
       interval: 30s
@@ -107,7 +107,7 @@ services:
   dolphinscheduler-master:
     image: apache/dolphinscheduler-master:3.0.0-alpha
     privileged: true
-    env_file: ./env
+    env_file: env
     healthcheck:
       test: [ "CMD", "curl", "http://localhost:5679/actuator/health" ]
       interval: 30s
@@ -128,7 +128,7 @@ services:
   dolphinscheduler-worker:
     image: apache/dolphinscheduler-worker:3.0.0-alpha
     privileged: true
-    env_file: ./env
+    env_file: env
     healthcheck:
       test: [ "CMD", "curl", "http://localhost:1235/actuator/health" ]
       interval: 30s
