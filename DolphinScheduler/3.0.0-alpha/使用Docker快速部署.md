@@ -1,4 +1,4 @@
-# DolphinScheduler部署教程
+# 使用Docker快速部署
 
 > 作者：梁帝
 
@@ -51,7 +51,8 @@ docker stack rm dolphinscheduler
 * master：主节点
 * worker：工作节点
 * alert-server：告警服务（非必须）
-* schema-initializer：库表初始化（可能遇到依赖删除问题，建议使用[POSTGRESQL](init_sql/dolphinscheduler_postgresql.sql)/[MYSQL](init_sql/dolphinscheduler_mysql.sql)/[H2](init_sql/dolphinscheduler_h2.sql)文件自行执行）
+* schema-initializer：库表初始化（可能遇到依赖删除问题，建议使用[POSTGRESQL](init_sql/dolphinscheduler_postgresql.sql)
+  /[MYSQL](init_sql/dolphinscheduler_mysql.sql)/[H2](init_sql/dolphinscheduler_h2.sql)文件自行执行）
 
 ### 1.3 访问项目
 
@@ -61,5 +62,4 @@ docker stack rm dolphinscheduler
 >
 > 登录密码：dolphinscheduler123
 
-## 2 二进制文件方式
 
