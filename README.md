@@ -30,7 +30,15 @@
 
 - ## dolphin scheduler(起始版本为3.0.0-alpha)
 
-    - [DolphinScheduler-3.0.0-alpha](./DolphinScheduler/3.0.0-alpha)
+    - [DolphinScheduler-3.0.0-alpha](./dolphinscheduler/3.0.0-alpha)
+
+- ## hadoop(起始版本为3.3.3)
+
+    - [hadoop-3.3.3](./hadoop/3.3.3)
+
+- ## java-se(起始版本为11)
+
+    - [java-se](./java-se)
 
 - ## spring-cloud(起始版本为Hoxton.SR9)
 
