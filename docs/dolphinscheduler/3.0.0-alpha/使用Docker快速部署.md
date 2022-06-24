@@ -38,7 +38,7 @@ docker stack rm dolphinscheduler
 
 ### 1.2 Docker-Compose文件配置详解
 
-> 查看[docker-compose.yml文件](./docker/docker-compose.yml)
+> 查看[docker-compose.yml文件](docker/docker-compose.yml)
 
 #### 1.2.1 必须依赖组件
 
@@ -51,8 +51,8 @@ docker stack rm dolphinscheduler
 * master：主节点
 * worker：工作节点
 * alert-server：告警服务（非必须）
-* schema-initializer：库表初始化（可能遇到依赖删除问题，建议使用[POSTGRESQL](./init_sql/dolphinscheduler_postgresql.sql)
-  /[MYSQL](./init_sql/dolphinscheduler_mysql.sql)/[H2](./init_sql/dolphinscheduler_h2.sql)文件自行执行）
+* schema-initializer：库表初始化（可能遇到依赖删除问题，建议使用[POSTGRESQL](init_sql/dolphinscheduler_postgresql.sql)
+  /[MYSQL](init_sql/dolphinscheduler_mysql.sql)/[H2](init_sql/dolphinscheduler_h2.sql)文件自行执行）
 
 ### 1.3 访问项目
 
