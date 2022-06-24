@@ -1,12 +1,12 @@
-- ## [linux](linux)
+- ## [linux](../Linux)
 
-    - ### [ubuntu](linux/ubuntu)
+    - ### [ubuntu](../Linux/Ubuntu)
 
-        - [虚拟机安装ubuntu](linux/ubuntu/虚拟机安装ubuntu.md)
+        - [虚拟机安装ubuntu](../Linux/Ubuntu/虚拟机安装ubuntu.md)
 
-        - [ubuntu防火墙管理](linux/ubuntu/ubuntu防火墙管理.md)
+        - [ubuntu防火墙管理](../Linux/Ubuntu/ubuntu防火墙管理.md)
 
-        - [ubuntu用户管理](linux/ubuntu/ubuntu用户管理.md)
+        - [ubuntu用户管理](../Linux/Ubuntu/ubuntu用户管理.md)
 
 - ## [maven](maven)
 
